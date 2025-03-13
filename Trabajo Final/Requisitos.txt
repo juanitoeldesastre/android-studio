@@ -1,0 +1,21 @@
+Backend (API):
+
+Lenguaje: Java (Spring Boot).
+
+Base de datos: PostgreSQL.
+
+Endpoints: /news, /news/{id}, /categories, etc.
+
+Frontend (Android App):
+
+Lenguaje: Kotlin.
+
+UI: XML.
+
+Conexión a la API: Retrofit (para consumir la API desde Android).
+
+Comunicación:
+
+La aplicación Android consume la API mediante HTTP (GET, POST, etc.).
+
+Los datos se devuelven en formato JSON.
