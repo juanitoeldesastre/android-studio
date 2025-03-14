@@ -26,5 +26,5 @@ fun main() {
 
     val respuesta = kotlin.calcularEnDolares(350.50, 3.67)
 
-    println(respuesta)
+    println("el precio en soles es $respuesta")
 }
