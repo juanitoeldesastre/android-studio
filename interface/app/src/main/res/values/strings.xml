@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">interface</string>
+    <string name="guardar">Guardar cambio</string>
+    <string name="nombre">Nombre</string>
+    <string name="empresa">Empresa</string>
+    <string name="proposito">Próposito de Visita</string>
+    <string name="registrar">registro</string>
+</resources>
