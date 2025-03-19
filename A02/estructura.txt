@@ -1,0 +1,15 @@
+mi_api/
+│
+├── app/
+│   ├── __init__.py
+│   ├── models/
+│   │   └── user.py
+│   ├── controllers/
+│   │   └── user_controller.py
+│   ├── views/
+│   │   └── user_view.py
+│   └── config.py
+│
+├── migrations/
+├── requirements.txt
+└── run.py

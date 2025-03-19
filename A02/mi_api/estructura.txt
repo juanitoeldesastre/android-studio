@@ -1,8 +1,0 @@
-/mi_api
-│── app.py               # Punto de entrada principal
-│── config.py            # Configuración de la app
-│── models.py            # Modelos (Base de Datos)
-│── controllers.py       # Controladores (Lógica de negocio)
-│── routes.py            # Definición de rutas
-│── database.db          # Base de datos SQLite (opcional)
-└── requirements.txt     # Dependencias
