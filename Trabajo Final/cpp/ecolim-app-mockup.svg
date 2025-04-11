@@ -1,0 +1,81 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo -->
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  
+  <!-- Teléfono 1: Pantalla principal -->
+  <rect x="50" y="50" width="220" height="450" rx="20" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <rect x="62" y="70" width="196" height="400" rx="5" fill="#e8f5e9" stroke="#333333" stroke-width="1"/>
+  
+  <!-- Barra superior -->
+  <rect x="62" y="70" width="196" height="50" rx="5" fill="#43a047" stroke="#333333" stroke-width="1"/>
+  <text x="160" y="102" font-family="Arial" font-size="18" fill="white" text-anchor="middle">EcoLim</text>
+  
+  <!-- Botones principales -->
+  <rect x="82" y="140" width="156" height="70" rx="10" fill="#66bb6a" stroke="#333333" stroke-width="1"/>
+  <text x="160" y="180" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Nuevo Registro</text>
+  
+  <rect x="82" y="230" width="156" height="70" rx="10" fill="#66bb6a" stroke="#333333" stroke-width="1"/>
+  <text x="160" y="270" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Ver Registros</text>
+  
+  <rect x="82" y="320" width="156" height="70" rx="10" fill="#66bb6a" stroke="#333333" stroke-width="1"/>
+  <text x="160" y="360" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Generar Reporte</text>
+  
+  <!-- Teléfono 2: Pantalla de registro -->
+  <rect x="300" y="50" width="220" height="450" rx="20" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <rect x="312" y="70" width="196" height="400" rx="5" fill="#e8f5e9" stroke="#333333" stroke-width="1"/>
+  
+  <!-- Barra superior -->
+  <rect x="312" y="70" width="196" height="50" rx="5" fill="#43a047" stroke="#333333" stroke-width="1"/>
+  <text x="410" y="102" font-family="Arial" font-size="18" fill="white" text-anchor="middle">Nuevo Registro</text>
+  
+  <!-- Formulario -->
+  <text x="322" y="150" font-family="Arial" font-size="14" fill="#333333">Tipo de Residuo:</text>
+  <rect x="322" y="160" width="176" height="40" rx="5" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+  <polygon points="480,180 470,170 470,190" fill="#333333"/>
+  
+  <text x="322" y="230" font-family="Arial" font-size="14" fill="#333333">Cantidad (kg):</text>
+  <rect x="322" y="240" width="176" height="40" rx="5" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+  
+  <text x="322" y="310" font-family="Arial" font-size="14" fill="#333333">Ubicación:</text>
+  <rect x="322" y="320" width="176" height="40" rx="5" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+  
+  <rect x="322" y="390" width="176" height="50" rx="10" fill="#43a047" stroke="#333333" stroke-width="1"/>
+  <text x="410" y="420" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Guardar</text>
+  
+  <!-- Teléfono 3: Pantalla de reportes -->
+  <rect x="550" y="50" width="220" height="450" rx="20" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <rect x="562" y="70" width="196" height="400" rx="5" fill="#e8f5e9" stroke="#333333" stroke-width="1"/>
+  
+  <!-- Barra superior -->
+  <rect x="562" y="70" width="196" height="50" rx="5" fill="#43a047" stroke="#333333" stroke-width="1"/>
+  <text x="660" y="102" font-family="Arial" font-size="18" fill="white" text-anchor="middle">Reportes</text>
+  
+  <!-- Gráfico circular -->
+  <circle cx="660" cy="200" r="80" fill="none" stroke="#333333" stroke-width="1"/>
+  <path d="M 660 200 L 660 120 A 80 80 0 0 1 732 200 Z" fill="#66bb6a"/>
+  <path d="M 660 200 L 732 200 A 80 80 0 0 1 660 280 Z" fill="#43a047"/>
+  <path d="M 660 200 L 660 280 A 80 80 0 0 1 588 200 Z" fill="#2e7d32"/>
+  <path d="M 660 200 L 588 200 A 80 80 0 0 1 660 120 Z" fill="#1b5e20"/>
+  
+  <!-- Leyenda -->
+  <rect x="580" y="300" width="15" height="15" fill="#66bb6a"/>
+  <text x="605" y="313" font-family="Arial" font-size="12" fill="#333333">Plástico (30%)</text>
+  
+  <rect x="580" y="325" width="15" height="15" fill="#43a047"/>
+  <text x="605" y="338" font-family="Arial" font-size="12" fill="#333333">Papel (25%)</text>
+  
+  <rect x="580" y="350" width="15" height="15" fill="#2e7d32"/>
+  <text x="605" y="363" font-family="Arial" font-size="12" fill="#333333">Vidrio (25%)</text>
+  
+  <rect x="580" y="375" width="15" height="15" fill="#1b5e20"/>
+  <text x="605" y="388" font-family="Arial" font-size="12" fill="#333333">Otros (20%)</text>
+  
+  <!-- Botón compartir -->
+  <rect x="600" y="410" width="120" height="40" rx="10" fill="#43a047" stroke="#333333" stroke-width="1"/>
+  <text x="660" y="435" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Compartir</text>
+  
+  <!-- Etiquetas -->
+  <text x="160" y="520" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle">Pantalla Principal</text>
+  <text x="410" y="520" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle">Registro de Residuos</text>
+  <text x="660" y="520" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle">Visualización de Reportes</text>
+</svg>
